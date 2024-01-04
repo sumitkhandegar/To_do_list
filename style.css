@@ -1,0 +1,79 @@
+body{
+   background-image: url(bg);
+   background-size: cover;
+   backface-visibility: 50%;
+   background-repeat: no-repeat;
+   background-color: rgba(255, 255, 255, 0.6); 
+  background-blend-mode: lighten; 
+   color: aliceblue;
+}
+
+.todo-container {
+   background-color: rgb(11, 50, 84);
+   border: 1px solid black;
+   border-radius: 15px;
+   align-items: center;
+   width: 500px;
+   margin: 20px auto;
+   padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.add-todo {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 10px;
+}
+
+.todo-input {
+   flex-grow: 1;
+   margin-right: 10px;
+   border-radius: 7px;
+   height: 30px;
+}
+
+.date-input {
+   flex-basis: 100px;
+   margin-right: 10px;
+   border-radius: 7px;
+   text-transform: uppercase;
+}
+
+#addButton{
+   border-radius: 7px;
+   background-color: plum;
+   width: 50px;
+}
+
+button{
+   background-color: red;
+}
+
+.completed {
+   text-decoration: line-through;
+}
+
+.delete-button {
+    margin-left: 5px;
+}
+
+#todayTasks {
+   background-color: rgb(23, 119, 202);
+   margin-top: 20px;
+   border-radius: 5px;
+   padding: 10px;
+}
+
+#otherTasks {
+   background-color: rgb(23, 119, 202);
+   margin-top: 20px;
+   border-radius: 5px;
+   padding: 10px;
+}
+
+.important {
+   font-weight: bold;
+}

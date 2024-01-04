@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1>What's the plan for today?</h1>
+        <div class="add-todo">
+            <input type="text" id="todoInput" class="todo-input form-control" placeholder="Enter a task">
+            <input type="date" id="dateInput" class="date-input form-control">
+            <button id="addButton" class="btn btn-primary">Add</button>
+        </div>
+        <h3 class="important">Important Tasks</h3>
+        <ul id="todayTasks" class="list-group"></ul>
+        <h3>Other Tasks</h3>
+        <ul id="otherTasks" class="list-group"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
